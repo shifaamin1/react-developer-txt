@@ -1,16 +1,36 @@
-# React + Vite
+Posts Viewer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Overview
 
-Currently, two official plugins are available:
+A React application built as part of a machine test to demonstrate UI design, routing, and API integration.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+⸻
 
-## React Compiler
+Features
+	•	Login page (UI only)
+	•	Posts list fetched from a public API
+	•	Post detail view
+	•	Navigation using React Router
+	•	Clean and responsive UI with custom CSS
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+⸻
 
-## Expanding the ESLint configuration
+APIs Used
+	•	https://jsonplaceholder.typicode.com/posts
+	•	https://jsonplaceholder.typicode.com/posts/:id
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+⸻
+
+Tech Stack
+
+React, React Router DOM, Axios, CSS
+
+⸻
+
+Run Project
+
+npm install
+npm run dev
+
+🖥 Screenshots
+<img width="957" height="775" alt="Screenshot 2025-12-15 212855" src="https://github.com/user-attachments/assets/64591f81-ca95-4241-9a67-001b06d847a8" />
